@@ -2961,8 +2961,8 @@
   "RootNamespace": "mvc_core_movie_app",
   "Documents": [
     {
-      "FilePath": "Views\\Home\\index.cshtml",
-      "TargetPath": "Views\\Home\\index.cshtml",
+      "FilePath": "Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
