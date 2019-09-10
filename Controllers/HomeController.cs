@@ -1,3 +1,4 @@
+using System.Linq;
 using Microsoft.AspNetCore.Mvc;
 using mvc_core_movie_app.Data;
 using mvc_core_movie_app.Models;
@@ -11,9 +12,13 @@ namespace mvc_core_movie_app.Controllers
         //dahil eder ve örn node_moduls klasörünü sildik. Terminale npm install dediğimizde package.jsonda
         //yazılan tüm packageleri tekrar ekler ve node_moduls klasörü geri gelir
         // npm i bootstrap -> bootstrapi node_modules klasörüne dahil eder
-        public IActionResult Index()
+        public IActionResult Index(int? id)
         {
-            return View(MovieRepository.Movies);
+          var movies=MovieRepository.Movies;
+          if(id!=null){
+            movies=movies.Where(i=>i.CategoryId==id).ToList();
+          }
+            return View(movies);
         }
 
         public IActionResult Contact()

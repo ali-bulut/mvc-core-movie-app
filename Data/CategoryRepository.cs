@@ -14,8 +14,7 @@ namespace mvc_core_movie_app.Data
                 new Category() {Id=2,Name="Drama"},
                 new Category() {Id=3,Name="Crime"},
                 new Category() {Id=4,Name="Military"},
-                new Category() {Id=5,Name="Horror"},
-               
+                new Category() {Id=5,Name="Horror"}
             };
         }
         public static List<Category> Categories{
