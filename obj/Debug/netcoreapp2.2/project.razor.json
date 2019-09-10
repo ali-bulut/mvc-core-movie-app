@@ -2966,6 +2966,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "Views\\Shared\\_menu.cshtml",
+      "TargetPath": "Views\\Shared\\_menu.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "Views\\Movie\\Index.cshtml",
       "TargetPath": "Views\\Movie\\Index.cshtml",
       "FileKind": "mvc"
@@ -2976,6 +2981,16 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "Views\\Shared\\_navbar.cshtml",
+      "TargetPath": "Views\\Shared\\_navbar.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views\\Home\\_movies.cshtml",
+      "TargetPath": "Views\\Home\\_movies.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "Views\\Movie\\Details.cshtml",
       "TargetPath": "Views\\Movie\\Details.cshtml",
       "FileKind": "mvc"
@@ -2983,6 +2998,11 @@
     {
       "FilePath": "Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views\\Shared\\_footer.cshtml",
+      "TargetPath": "Views\\Shared\\_footer.cshtml",
       "FileKind": "mvc"
     },
     {

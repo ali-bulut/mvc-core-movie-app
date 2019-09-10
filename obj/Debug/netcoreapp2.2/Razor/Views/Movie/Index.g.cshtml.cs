@@ -14,12 +14,12 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
 #line 1 "C:\Workspace\Mvc Core Movie App\mvc-core-movie-app\Views\_ViewImports.cshtml"
-using MyApp.Namespace;
+using mvc_core_movie_app.Models;
 
 #line default
 #line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"33d4f0548ec43895b4d64bf3997626781853d483", @"/Views/Movie/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"52678aae935496b2f0307e96c107d7f8a26548e3", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"c9010d5d80261ffbb53d76fbc52027d8d835352f", @"/Views/_ViewImports.cshtml")]
     public class Views_Movie_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

@@ -27,19 +27,21 @@ namespace mvc_core_movie_app
         {
             //bu metod ile wwwroot klasörünün içindeki tüm klasör ve dosyalar dışarıya açılır
             //wwwroot otomatik olarak -> /css/style.css /img/1.jpg olarak linkleri düzenler
-            app.UseStaticFiles(); 
+            app.UseStaticFiles();
 
 
             //bu metodu açmamızın sebebi wwwroot özel bir klasörken node_modules öyle değil
             //o nedenle node_modules klasörünü de dışarıya açmamız için bu metodu kullandık
             // modules/bootstrap/dist/css/bootstrap.min.css şeklinde bir urle dönüşür
-            app.UseStaticFiles(new StaticFileOptions{
+            // app.UseStaticFiles(new StaticFileOptions
+            // {
 
-                FileProvider=new PhysicalFileProvider(Path.Combine(Directory.GetCurrentDirectory(), "node_moduls")),
-                //burada urlde node_modulesi kullanmamak için modules takma adını verdik
-                RequestPath="/modules"
+            //     FileProvider = new PhysicalFileProvider(Path.Combine
+            //     (Directory.GetCurrentDirectory(), "node_moduls")),
+            //     //burada urlde node_modulesi kullanmamak için modules takma adını verdik
+            //     RequestPath = "/modules"
 
-            });
+            // });
 
             //eğer env(.vscode içerisindeki launch.jsonda var) developmentsa hataları detaylı 
             //bir şekilde göster
