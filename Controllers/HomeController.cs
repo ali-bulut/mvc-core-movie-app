@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using mvc_core_movie_app.Data;
 using mvc_core_movie_app.Models;
 
 namespace mvc_core_movie_app.Controllers
@@ -12,7 +13,7 @@ namespace mvc_core_movie_app.Controllers
         // npm i bootstrap -> bootstrapi node_modules klasörüne dahil eder
         public IActionResult Index()
         {
-            return View(Repository.Movies);
+            return View(ProductRepository.Movies);
         }
 
         public IActionResult Contact()
@@ -23,7 +24,7 @@ namespace mvc_core_movie_app.Controllers
         public IActionResult Details(int id)
         {
             
-          return View(Repository.GetById(id));
+          return View(ProductRepository.GetById(id));
         }
     }
 }

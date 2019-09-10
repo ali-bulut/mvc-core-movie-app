@@ -1,12 +1,13 @@
 using System.Collections.Generic;
 using System.Linq;
+using mvc_core_movie_app.Models;
 
-namespace mvc_core_movie_app.Models
+namespace mvc_core_movie_app.Data
 {
-    public class Repository
+    public class ProductRepository
     {
         private static List<Movie> _movies=null;
-        static Repository()
+        static ProductRepository()
         {
             _movies=new List<Movie>(){
                 new Movie() {Id=1,Name="Shazam",Description="Shazam",ImageUrl="1.jpg"},
