@@ -1,0 +1,23 @@
+{
+  "name": "mvc-core-movie-app",
+  "version": "1.0.0",
+  "description": "Movie App by using Asp.Net Mvc Core",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ali-bulut/mvc-core-movie-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ali-bulut/mvc-core-movie-app/issues"
+  },
+  "homepage": "https://github.com/ali-bulut/mvc-core-movie-app#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1"
+  }
+}
