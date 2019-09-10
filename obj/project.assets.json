@@ -12082,11 +12082,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Workspace\\Mvc Core Movie App\\mvc-core-movie-app\\mvc-core-movie-app.csproj",
+      "projectUniqueName": "c:\\Workspace\\Mvc Core Movie App\\mvc-core-movie-app\\mvc-core-movie-app.csproj",
       "projectName": "mvc-core-movie-app",
-      "projectPath": "C:\\Workspace\\Mvc Core Movie App\\mvc-core-movie-app\\mvc-core-movie-app.csproj",
+      "projectPath": "c:\\Workspace\\Mvc Core Movie App\\mvc-core-movie-app\\mvc-core-movie-app.csproj",
       "packagesPath": "C:\\Users\\alibu\\.nuget\\packages\\",
-      "outputPath": "C:\\Workspace\\Mvc Core Movie App\\mvc-core-movie-app\\obj\\",
+      "outputPath": "c:\\Workspace\\Mvc Core Movie App\\mvc-core-movie-app\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
