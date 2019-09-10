@@ -4,10 +4,10 @@ using mvc_core_movie_app.Models;
 
 namespace mvc_core_movie_app.Data
 {
-    public class ProductRepository
+    public class MovieRepository
     {
         private static List<Movie> _movies=null;
-        static ProductRepository()
+        static MovieRepository()
         {
             _movies=new List<Movie>(){
                 new Movie() {Id=1,Name="Shazam",Description="Shazam",ImageUrl="1.jpg"},

@@ -3016,6 +3016,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "Views\\Shared\\Components\\CategoryMenu\\Default.cshtml",
+      "TargetPath": "Views\\Shared\\Components\\CategoryMenu\\Default.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "Views\\Movie\\List.cshtml",
       "TargetPath": "Views\\Movie\\List.cshtml",
       "FileKind": "mvc"

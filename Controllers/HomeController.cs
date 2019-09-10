@@ -13,7 +13,7 @@ namespace mvc_core_movie_app.Controllers
         // npm i bootstrap -> bootstrapi node_modules klasörüne dahil eder
         public IActionResult Index()
         {
-            return View(ProductRepository.Movies);
+            return View(MovieRepository.Movies);
         }
 
         public IActionResult Contact()
@@ -22,9 +22,11 @@ namespace mvc_core_movie_app.Controllers
         }
 
         public IActionResult Details(int id)
-        {
-            
-          return View(ProductRepository.GetById(id));
+         {
+        //     MovieCategoryModel model=new MovieCategoryModel();
+        //     model.Categories=CategoryRepository.Categories;
+        //     model.Movie=MovieRepository.GetById(id);
+          return View(MovieRepository.GetById(id));
         }
     }
 }
