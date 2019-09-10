@@ -19,5 +19,11 @@ namespace mvc_core_movie_app.Controllers
         {
           return View();
         }
+
+        public IActionResult Details(int id)
+        {
+            
+          return View(Repository.GetById(id));
+        }
     }
 }

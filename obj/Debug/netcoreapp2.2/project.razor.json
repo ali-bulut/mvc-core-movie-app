@@ -3019,6 +3019,11 @@
       "FilePath": "Views\\Movie\\List.cshtml",
       "TargetPath": "Views\\Movie\\List.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views\\Home\\Details.cshtml",
+      "TargetPath": "Views\\Home\\Details.cshtml",
+      "FileKind": "mvc"
     }
   ],
   "SerializationFormat": "0.2"

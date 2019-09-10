@@ -32,3 +32,4 @@ C:\Workspace\Mvc Core Movie App\mvc-core-movie-app\obj\Debug\netcoreapp2.2\Razor
 C:\Workspace\Mvc Core Movie App\mvc-core-movie-app\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_navbar.g.cshtml.cs
 c:\Workspace\Mvc Core Movie App\mvc-core-movie-app\obj\Debug\netcoreapp2.2\Razor\Views\Home\_movies.g.cshtml.cs
 c:\Workspace\Mvc Core Movie App\mvc-core-movie-app\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_menu.g.cshtml.cs
+c:\Workspace\Mvc Core Movie App\mvc-core-movie-app\obj\Debug\netcoreapp2.2\Razor\Views\Home\Details.g.cshtml.cs
