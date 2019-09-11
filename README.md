@@ -1,2 +1,2 @@
 # mvc-core-movie-app
-Movie App by using Asp.Net Mvc Core
+A responsive movie web app by using Html, Css, Bootstrap, CSharp, LINQ and Asp.Net MVC Core
